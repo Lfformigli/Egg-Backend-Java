@@ -1,4 +1,4 @@
-package Encuentro1;
+package Encuentro2;
 
 import java.util.Scanner;
 
@@ -13,7 +13,8 @@ public class Ejercicio5 {
         
         System.out.println("El doble es: " + (numero*2) );
         System.out.println("El triple es: " + (numero*3) );
-        System.out.println("El cuadrado es: " + Math.sqrt(numero));
+        System.out.println("La raiz es: " + Math.sqrt(numero));
+        System.out.println("El cuadrado es: " + (numero*numero));
     }
 
 }
