@@ -1,5 +1,5 @@
 
-package Encuentro1;
+package Encuentro2;
 
 public class Ejercicio0 {
 

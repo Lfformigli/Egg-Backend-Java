@@ -1,4 +1,4 @@
-package Encuentro3;
+package Encuentro4;
 
 import java.util.Scanner;
 
@@ -7,18 +7,18 @@ public class Ejercicio2 {
     public static void main(String[] args) {
 
         Scanner read = new Scanner(System.in);
-        String clave2 = "eureka";
-        String clave1;
+
+        String clave;
 
         System.out.println("Ingrese la clave");
 
         do {
-            clave1 = read.next();
-            if (!clave1.equals(clave2)) {
+            clave = read.next();
+            if (!clave.equals("eureka")) {
                 System.out.println("La clave es incorrecta, intente nuevamente");
             }
 
-        } while (!clave1.equals(clave2));
+        } while (!clave.equals("eureka"));
 
         System.out.println("La clave ingresada es correcta :)");
 

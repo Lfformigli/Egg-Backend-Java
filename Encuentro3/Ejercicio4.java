@@ -5,19 +5,13 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-                
-        System.out.println("Ingrese una palabra");
+        Scanner leer = new Scanner(System.in);
         
-        String palabra = read.next();
-                
-        if (palabra.substring(0, 1).equals("A")) {
-            System.out.println("Correcto");
-        } else {
-            System.out.println("Incorrecto");
-        }
-                
-          
+        System.out.println("Ingrese la cantidad de grados centigrados");
+        
+        int grados = leer.nextInt();
+        
+        System.out.println("La temperatura en grados farenheit es: " + (32+(grados*9/5)));
     }
 
 }

@@ -1,5 +1,5 @@
 //Crear un programa que dado un número determine si es par o impar.
-package Encuentro3;
+package Encuentro4;
 
 import java.util.Scanner;
 

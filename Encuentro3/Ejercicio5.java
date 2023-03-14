@@ -5,21 +5,16 @@ import java.util.Scanner;
 public class Ejercicio5 {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         
-        System.out.println("Ingrese un numero limite");
+        System.out.println("Ingrese un numero");
         
-        int limite = read.nextInt();
+        double numero = leer.nextInt();
         
-        int suma=0;
-        
-        do {
-            System.out.println("Escriba numeros a sumar");
-            suma=suma+read.nextInt(); 
-            System.out.println("La sumatoria actual es:" + suma);
-        } while (limite>suma);
-        
-        
+        System.out.println("El doble es: " + (numero*2) );
+        System.out.println("El triple es: " + (numero*3) );
+        System.out.println("La raiz es: " + Math.sqrt(numero));
+        System.out.println("El cuadrado es: " + (numero*numero));
     }
 
 }
