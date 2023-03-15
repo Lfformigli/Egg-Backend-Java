@@ -1,4 +1,4 @@
-package Encuentro2;
+package IntroduccionAJava;
 
 import java.util.Scanner;
 

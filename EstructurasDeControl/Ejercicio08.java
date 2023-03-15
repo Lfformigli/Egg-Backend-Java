@@ -1,8 +1,8 @@
-package Encuentro5;
+package EstructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ejercicio8 {
+public class Ejercicio08 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);

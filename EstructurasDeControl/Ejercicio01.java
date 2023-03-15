@@ -1,9 +1,9 @@
 //Crear un programa que dado un número determine si es par o impar.
-package Encuentro4;
+package EstructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
 
     public static void main(String[] args) {
 

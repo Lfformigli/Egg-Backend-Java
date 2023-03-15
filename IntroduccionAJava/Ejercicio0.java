@@ -1,5 +1,5 @@
 
-package Encuentro2;
+package IntroduccionAJava;
 
 public class Ejercicio0 {
 
