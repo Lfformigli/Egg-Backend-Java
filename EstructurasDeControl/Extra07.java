@@ -13,7 +13,7 @@ public class Extra07 {
 
         System.out.println("Ingrese los numeros");
         num = read.nextInt();        
-//        suma=num;
+        suma=num;
         max = num;
         min = num;
 
