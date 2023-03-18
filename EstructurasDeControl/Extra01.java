@@ -13,18 +13,17 @@ public class Extra01 {
 
         min = read.nextInt();
 
-        do {
+        while (min >= 1440) {
             dias = dias + 1;
             min = min - 1440;
-        } while (min >= 1440);
+        }
 
-        do {
+        while (min >= 60) {
             horas = horas + 1;
             min = min - 60;
-        } while (min >= 60);
+        }
 
         System.out.println("Dias: " + dias + "Horas: " + horas);
-
 
     }
 }
