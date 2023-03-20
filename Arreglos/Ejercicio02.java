@@ -33,7 +33,7 @@ public class Ejercicio02 {
             
             
         for (int i = 0; i < n; i++) {
-            System.out.println(vector[i]);
+            System.out.print("[" + vector[i] + "]");
         }
             
             
